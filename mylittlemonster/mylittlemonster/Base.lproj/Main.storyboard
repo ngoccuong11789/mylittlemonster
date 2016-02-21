@@ -60,7 +60,7 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="Rdx-Zl-fS4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="Rdx-Zl-fS4" customClass="Monsterimg" customModule="mylittlemonster" customModuleProvider="target">
                                 <rect key="frame" x="-50" y="189" width="561" height="356"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="356" id="F5l-m2-MXD"/>
@@ -73,7 +73,7 @@
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="tt8-54-P5p" customClass="DragImg" customModule="mylittlemonster" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="95" height="98"/>
                                     </imageView>
-                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="fyr-i0-ArT" customClass="DragImg" customModule="mylittlemonster" customModuleProvider="target">
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="fyr-i0-ArT" customClass="DragImg" customModule="mylittlemonster" customModuleProvider="target">
                                         <rect key="frame" x="155" y="0.0" width="95" height="98"/>
                                     </imageView>
                                 </subviews>
@@ -127,6 +127,9 @@
                         <outlet property="foodImg" destination="fyr-i0-ArT" id="kUT-9L-myb"/>
                         <outlet property="heartImg" destination="tt8-54-P5p" id="Ybd-OS-L6P"/>
                         <outlet property="monsterImg" destination="Rdx-Zl-fS4" id="yzR-mV-nun"/>
+                        <outlet property="penalty1Img" destination="nah-Nd-elv" id="Lrs-Hv-Mz2"/>
+                        <outlet property="penalty2Img" destination="y8g-aV-Hk9" id="VwQ-Mb-Pkq"/>
+                        <outlet property="penalty3Img" destination="Bok-zY-T1V" id="xHR-k7-2Et"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
